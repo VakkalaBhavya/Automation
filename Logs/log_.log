@@ -1,0 +1,1203 @@
+2019-08-13 16:31:25,592 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 16:31:25,593 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 16:31:25,592 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 16:31:25,596 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat2.feature 
+2019-08-13 16:31:25,592 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 16:31:25,596 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 16:31:25,596 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 16:31:25,596 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 16:31:30,168 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:31:31,761 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:31,763 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:32,513 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:31:32,835 INFO  [WebConnector:119] Data to enter eclipse 
+2019-08-13 16:31:34,375 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:34,375 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:34,961 INFO  [WebConnector:119] Data to enter cucumber 
+2019-08-13 16:31:35,040 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:35,040 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:35,403 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:35,403 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:35,667 INFO  [WebConnector:119] Data to enter eclips 
+2019-08-13 16:31:36,053 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-13 16:31:36,164 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:36,165 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:36,383 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-13 16:31:36,573 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:36,573 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:36,722 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Facebook 
+2019-08-13 16:31:36,722 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat2.feature 
+2019-08-13 16:31:37,139 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@2304b36c 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:31:37,155 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:37,156 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:31:37,718 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 16:31:37,719 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat3.feature 
+2019-08-13 16:31:37,725 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:37,725 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:38,235 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:38,235 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:38,339 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-13 16:31:38,656 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-13 16:31:39,093 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:39,093 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:44,301 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@77f286c 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:31:44,304 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:44,304 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:31:45,109 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Selenium 
+2019-08-13 16:31:45,109 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat3.feature 
+2019-08-13 16:31:46,736 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:31:48,465 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:48,466 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:49,336 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:49,336 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:50,566 INFO  [WebConnector:119] Data to enter cucumber 
+2019-08-13 16:31:51,039 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:31:52,633 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:52,634 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:53,116 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:53,116 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:53,662 INFO  [WebConnector:119] Data to enter selenium 
+2019-08-13 16:31:54,762 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:54,762 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:54,964 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:54,964 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:55,423 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:55,424 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:55,574 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:55,574 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:55,911 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 16:31:55,911 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat4.feature 
+2019-08-13 16:31:55,914 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:31:55,932 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:55,932 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:56,494 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:56,495 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:56,553 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:56,553 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:56,654 INFO  [FacebookWebConnector:109] Data to enter testFact@book.com 
+2019-08-13 16:31:56,929 INFO  [FacebookWebConnector:109] Data to enter happy 
+2019-08-13 16:31:57,010 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:57,011 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:57,051 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:57,051 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:57,603 INFO  [WebConnector:119] Data to enter eclipse 
+2019-08-13 16:31:57,643 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:57,644 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:31:58,201 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@62108efc 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:31:58,204 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:58,204 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:31:58,720 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:31:58,721 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:31:59,221 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 16:31:59,221 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat5.feature 
+2019-08-13 16:31:59,224 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:31:59,414 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:59,415 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:31:59,624 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:31:59,624 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:00,104 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:00,104 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:00,125 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:00,126 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:00,169 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:00,169 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:00,698 INFO  [WebConnector:119] Data to enter eclips 
+2019-08-13 16:32:00,798 INFO  [WebConnector:119] Data to enter cucumber 
+2019-08-13 16:32:00,814 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:00,814 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:06,490 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:06,491 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:06,588 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-13 16:32:06,759 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-13 16:32:06,812 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:06,812 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:06,914 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:06,914 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:07,003 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:07,003 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:07,312 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:07,312 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:07,496 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:07,496 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:07,585 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Selenium 
+2019-08-13 16:32:07,585 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat5.feature 
+2019-08-13 16:32:07,588 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:32:07,929 INFO  [FacebookWebConnector:109] Data to enter testFact@book.com 
+2019-08-13 16:32:07,943 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:07,944 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:08,109 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@704995a6 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:32:08,111 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:08,111 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:32:08,389 INFO  [FacebookWebConnector:109] Data to enter happy 
+2019-08-13 16:32:08,470 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:08,470 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:08,566 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:08,566 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:08,730 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:08,731 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:32:08,746 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:08,747 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:08,935 INFO  [WebConnector:119] Data to enter selenium 
+2019-08-13 16:32:09,102 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:09,103 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:09,247 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:09,247 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:09,266 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 16:32:09,267 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat6.feature 
+2019-08-13 16:32:09,271 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:32:09,661 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:09,661 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:09,689 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@14afd92a 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:32:09,691 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:09,691 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:32:09,908 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 16:32:09,909 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat7.feature 
+2019-08-13 16:32:09,911 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:32:10,288 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:10,288 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:32:10,324 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:10,324 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:10,631 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:10,631 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:10,800 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Selenium 
+2019-08-13 16:32:10,801 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat7.feature 
+2019-08-13 16:32:10,804 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:32:11,194 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:11,194 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:11,198 INFO  [WebConnector:119] Data to enter eclipse 
+2019-08-13 16:32:11,225 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:11,225 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:11,494 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:11,495 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:11,696 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:11,697 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:11,762 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:11,762 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:11,951 INFO  [WebConnector:119] Data to enter cucumber 
+2019-08-13 16:32:12,167 INFO  [WebConnector:119] Data to enter selenium 
+2019-08-13 16:32:12,207 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Facebook 
+2019-08-13 16:32:12,208 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat7.feature 
+2019-08-13 16:32:13,396 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:13,396 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:13,891 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:13,892 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:14,110 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:14,110 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:14,272 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:14,272 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:14,537 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:14,538 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:14,708 INFO  [WebConnector:119] Data to enter eclips 
+2019-08-13 16:32:15,036 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 16:32:15,036 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat8.feature 
+2019-08-13 16:32:15,039 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 16:32:15,192 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:15,192 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:15,683 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:15,683 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:15,997 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 16:32:15,997 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat8.feature 
+2019-08-13 16:32:16,175 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:16,176 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:16,362 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:16,362 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:16,926 INFO  [WebConnector:119] Data to enter eclipse 
+2019-08-13 16:32:17,074 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:17,075 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:17,639 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 16:32:17,640 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat8.feature 
+2019-08-13 16:32:19,836 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:19,837 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:20,172 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:20,173 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:20,429 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:20,429 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:20,522 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:20,522 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:20,769 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:20,770 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:20,992 INFO  [FacebookWebConnector:109] Data to enter testFact@book.com 
+2019-08-13 16:32:21,146 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:21,146 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:21,164 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:21,164 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:21,225 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:21,225 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:21,356 INFO  [FacebookWebConnector:109] Data to enter happy 
+2019-08-13 16:32:21,529 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:21,529 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:21,759 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:21,759 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:32:21,854 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-13 16:32:22,004 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-13 16:32:22,228 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-13 16:32:22,230 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:22,230 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:22,285 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-13 16:32:22,415 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:22,415 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:22,492 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:22,492 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 16:32:22,609 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:22,609 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:32:22,723 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@79e457a6 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:32:22,726 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:22,726 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:32:22,923 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:22,923 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:22,926 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:22,926 INFO  [HookDetails:56] Scenario StatusPASSED 
+2019-08-13 16:32:23,142 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:23,143 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:32:23,346 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@69c6165b 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:32:23,347 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@1a6723f7 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 16:32:23,349 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:23,349 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:32:23,350 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 16:32:23,350 INFO  [HookDetails:42] Scenario StatusFAILED 
+2019-08-13 16:32:23,742 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:23,742 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 16:32:23,828 INFO  [HookDetails:55] AFTER-STEP 
+2019-08-13 16:32:23,828 INFO  [HookDetails:56] Scenario StatusFAILED 
+2019-08-13 22:31:36,675 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 22:31:36,677 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat4.feature 
+2019-08-13 22:31:40,409 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 22:31:42,228 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 22:31:42,230 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 22:31:42,726 INFO  [WebConnector:119] Data to enter eclipse 
+2019-08-13 22:31:44,777 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 22:31:44,777 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 22:56:04,854 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 22:56:04,856 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat4.feature 
+2019-08-13 22:56:08,431 INFO  [WebConnector:32] Loading the Set up Propeties File:qa 
+2019-08-13 22:56:09,959 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 22:56:09,960 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 22:56:10,564 INFO  [WebConnector:119] Data to enter eclipse 
+2019-08-13 22:56:12,401 INFO  [HookDetails:41] AFTER-STEP 
+2019-08-13 22:56:12,402 INFO  [HookDetails:42] Scenario StatusPASSED 
+2019-08-13 23:27:01,336 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 23:27:01,338 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat4.feature 
+2019-08-13 23:27:04,795 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-13 23:27:06,699 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:27:06,699 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:27:07,117 INFO  [WebConnector:120] Data to enter eclipse 
+2019-08-13 23:27:09,066 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:27:09,066 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:33,073 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Eclipse 
+2019-08-13 23:44:33,076 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat4.feature 
+2019-08-13 23:44:33,073 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 23:44:33,073 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:44:33,077 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:44:33,073 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:44:33,077 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:44:33,076 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:44:38,906 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-13 23:44:40,807 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-13 23:44:40,988 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:40,989 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:42,024 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-13 23:44:42,505 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:42,505 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:43,289 INFO  [WebConnector:120] Data to enter eclipse 
+2019-08-13 23:44:44,828 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:44,829 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:45,817 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:45,817 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:46,390 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:46,390 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:44:46,974 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-13 23:44:47,286 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-13 23:44:47,488 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:47,488 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:44:50,744 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:50,745 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:44:50,898 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@16e7ce29 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:44:50,912 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:50,912 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:44:51,830 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-13 23:44:52,224 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-13 23:44:52,675 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:52,675 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:44:53,238 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@764e8133 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:44:53,242 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:53,242 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:44:55,897 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:55,898 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:56,665 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:56,665 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:44:57,305 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-13 23:44:57,575 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-13 23:44:57,717 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:57,717 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:44:58,457 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:58,457 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:44:58,953 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@196b36ea 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:44:58,956 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:44:58,956 INFO  [HookDetails:52] Scenario StatusFAILED 
+2019-08-13 23:44:59,635 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:44:59,635 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:46:37,910 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:46:37,915 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:46:37,910 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:46:37,915 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:46:37,910 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 23:46:37,916 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:46:42,575 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-13 23:46:44,436 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:46:44,436 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:46:44,968 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-13 23:46:47,290 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:46:47,290 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:46:47,383 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:47,383 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:46:47,918 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-13 23:46:47,952 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:47,954 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:46:48,187 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-13 23:46:48,331 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:48,331 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:46:48,509 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-13 23:46:48,673 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-13 23:46:48,798 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:48,798 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:46:48,799 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@2334d714 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:46:48,813 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:48,813 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:46:49,258 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@6c26604e 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:46:49,261 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:49,261 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:46:54,616 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:46:54,617 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:46:55,092 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:55,092 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:46:55,565 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-13 23:46:55,705 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-13 23:46:55,825 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:46:55,826 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:46:56,363 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:56,363 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:46:56,819 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@30f020c1 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:46:56,822 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:46:56,823 INFO  [HookDetails:52] Scenario StatusFAILED 
+2019-08-13 23:46:57,257 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:46:57,257 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:55:01,260 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:55:01,260 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:55:01,262 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:55:01,260 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 23:55:01,263 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:55:01,262 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:55:05,583 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-13 23:55:07,662 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:55:07,663 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:55:08,419 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-13 23:55:10,415 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:55:10,415 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:55:10,832 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:10,833 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:55:11,154 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:11,155 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:55:11,367 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-13 23:55:11,540 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-13 23:55:11,650 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-13 23:55:11,674 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:11,674 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:55:11,843 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-13 23:55:11,992 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:11,992 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:55:12,187 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@783fd8dd 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:55:12,198 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:12,198 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:55:12,467 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@52136340 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:55:12,468 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:12,468 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:55:18,191 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:55:18,191 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:55:18,691 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:18,692 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:55:19,334 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-13 23:55:19,509 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-13 23:55:19,615 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:55:19,616 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:55:20,074 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:20,074 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:55:20,459 ERROR [FacebookWebConnector:78] [Ljava.lang.StackTraceElement;@76d800fe 
+java.lang.NullPointerException
+	at driver.FacebookWebConnector.clickElement(FacebookWebConnector.java:53)
+	at pageobject.FacebookDemoPage.clickForgotPassword(FacebookDemoPage.java:36)
+	at stepdef.FBStepDef.forgotPassword(FBStepDef.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:58)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-13 23:55:20,463 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:55:20,463 INFO  [HookDetails:52] Scenario StatusFAILED 
+2019-08-13 23:55:20,926 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:55:20,927 INFO  [HookDetails:69] Scenario StatusFAILED 
+2019-08-13 23:58:01,079 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:58:01,079 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber123 
+2019-08-13 23:58:01,081 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:58:01,079 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-13 23:58:01,081 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:58:01,083 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-13 23:58:05,810 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-13 23:58:07,569 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:58:07,569 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:58:08,100 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-13 23:58:10,394 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:58:10,394 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:58:10,664 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:10,665 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:10,792 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:10,793 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:11,142 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-13 23:58:11,263 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-13 23:58:11,356 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-13 23:58:11,494 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-13 23:58:11,518 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:11,518 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:11,625 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:11,625 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:12,831 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:12,832 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:12,913 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:12,913 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:18,405 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:58:18,405 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:58:19,130 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:19,131 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:19,793 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-13 23:58:19,964 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-13 23:58:20,058 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:58:20,058 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:58:20,822 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:20,823 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-13 23:58:21,856 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-13 23:58:21,856 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-13 23:58:22,604 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-13 23:58:22,604 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:10,068 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> facebook 
+2019-08-14 00:07:10,073 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:07:10,068 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> facebook 
+2019-08-14 00:07:10,073 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:07:10,068 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-14 00:07:10,073 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:07:14,650 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-14 00:07:16,357 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:07:16,357 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:07:16,984 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-14 00:07:19,237 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:07:19,237 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:07:20,241 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:20,241 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:20,478 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:20,478 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:20,802 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-14 00:07:20,978 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-14 00:07:21,058 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-14 00:07:21,213 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-14 00:07:21,220 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:21,220 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:21,425 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:21,425 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:22,838 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:22,838 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:23,058 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:23,058 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:26,620 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:07:26,620 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:07:27,103 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:27,104 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:27,647 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-14 00:07:27,794 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-14 00:07:27,913 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:07:27,913 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:07:28,471 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:28,471 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:07:29,467 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:07:29,468 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:07:29,963 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:07:29,963 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:24,585 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-14 00:09:24,587 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:09:28,076 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-14 00:09:29,796 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:29,796 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:30,192 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-14 00:09:32,299 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:32,299 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:38,582 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:38,583 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:39,006 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:39,006 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:39,458 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-14 00:09:39,577 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-14 00:09:39,661 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:39,661 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:40,107 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:40,108 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:41,002 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:41,002 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:41,450 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:41,450 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:41,784 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> facebook 
+2019-08-14 00:09:41,784 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:09:42,993 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:42,994 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:43,625 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:43,625 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:44,073 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-14 00:09:44,287 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-14 00:09:44,466 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:44,466 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:45,212 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:45,213 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:46,239 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:46,239 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:46,948 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:46,948 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:47,310 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> facebook 
+2019-08-14 00:09:47,310 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:09:48,356 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:48,356 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:49,029 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:49,029 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:49,485 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-14 00:09:49,640 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-14 00:09:49,753 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:49,753 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:50,368 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:50,368 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:09:51,265 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:09:51,265 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:09:51,949 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:09:51,953 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:01,144 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> facebook 
+2019-08-14 00:16:01,146 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:16:01,144 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> Cucumber 
+2019-08-14 00:16:01,146 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:16:05,246 INFO  [WebConnector:33] Loading the Set up Propeties File:qa 
+2019-08-14 00:16:07,263 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:16:07,264 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:16:07,754 INFO  [WebConnector:120] Data to enter cucumber 
+2019-08-14 00:16:09,043 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:09,043 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:09,486 INFO  [FacebookWebConnector:109] Data to enter POIUYYTRRY 
+2019-08-14 00:16:09,695 INFO  [FacebookWebConnector:109] Data to enter POIUYTT 
+2019-08-14 00:16:09,821 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:09,821 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:09,826 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:16:09,826 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:16:10,765 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:10,765 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:11,148 INFO  [HookDetails:25] BEFORE HOOK------>Starting -----> facebook 
+2019-08-14 00:16:11,148 INFO  [HookDetails:26] STARTING FEATURE FILEfile:src/test/resources/features/feat1.feature 
+2019-08-14 00:16:12,913 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:12,913 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:13,529 INFO  [FacebookWebConnector:109] Data to enter divyavakkala 
+2019-08-14 00:16:13,700 INFO  [FacebookWebConnector:109] Data to enter QWWERETY 
+2019-08-14 00:16:13,857 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:13,857 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:14,729 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:14,729 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:16,625 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:16:16,625 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:16:17,284 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:17,285 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:18,000 INFO  [FacebookWebConnector:109] Data to enter v.bhavya5 
+2019-08-14 00:16:18,150 INFO  [FacebookWebConnector:109] Data to enter qwqewqe 
+2019-08-14 00:16:18,242 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:16:18,242 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:16:18,778 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:18,778 INFO  [HookDetails:69] Scenario StatusPASSED 
+2019-08-14 00:16:19,833 INFO  [HookDetails:51] AFTER-STEP 
+2019-08-14 00:16:19,833 INFO  [HookDetails:52] Scenario StatusPASSED 
+2019-08-14 00:16:20,305 INFO  [HookDetails:68] AFTER-STEP 
+2019-08-14 00:16:20,305 INFO  [HookDetails:69] Scenario StatusPASSED 
